@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehillim Unity — Global Prayer Network</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #c5a059;
+            --gold-soft: #e2c287;
+            --bg: #050608;
+            --glass: rgba(255, 255, 255, 0.02);
+            --border: rgba(197, 160, 89, 0.2);
+        }
+
+        body, html {
+            margin: 0; padding: 0;
+            background: var(--bg);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Визуальный фон */
+        .aura {
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100vw; height: 100vh;
+            background: radial-gradient(circle at center, #161b22 0%, #050608 100%);
+            z-index: -1;
+        }
+
+        /* Бегущая строка */
+        .marquee {
+            position: fixed; top: 0;
+            width: 100%; padding: 18px 0;
+            background: rgba(0,0,0,0.95);
+            border-bottom: 1px solid var(--border);
+            z-index: 1000;
+            overflow: hidden;
+            backdrop-filter: blur(15px);
+        }
+
+        .marquee-inner {
+            display: flex; white-space: nowrap;
+            animation: scroll 200s linear infinite;
+        }
+
+        .marquee-inner span {
+            padding: 0 60px;
+            font-size: 10px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: var(--gold);
+            font-weight: 300;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* Основной контейнер */
+        .main-wrapper {
+            max-width: 1100px;
+            margin: 160px auto 100px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .lang-dropdown { margin-bottom: 70px; }
+
+        select {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--gold);
+            padding: 16px 45px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.4s ease;
+            appearance: none;
+            text-align: center;
+        }
+
+        select:hover { background: rgba(197, 160, 89, 0.08); border-color: var(--gold); }
+
+        /* Блок цитаты */
+        .quote-box {
+            background: var(--glass);
+            border: 1px solid var(--border);
+            padding: 100px 80px;
+            backdrop-filter: blur(40px);
+            transition: opacity 0.8s ease;
+            box-shadow: 0 60px 120px rgba(0,0,0,0.6);
+            position: relative;
+        }
+
+        .text-main {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 60px;
+            font-weight: 400;
+            letter-spacing: -0.5px;
+        }
+
+        .text-trans {
+            font-size: 1.1rem;
+            color: var(--gold-soft);
+            font-style: italic;
+            opacity: 0.7;
+            border-top: 1px solid var(--border);
+            padding-top: 50px;
+            max-width: 800px; margin: 0 auto;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        /* Аудиоплеер */
+        .audio-ui {
+            margin-top: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .play-btn {
+            width: 85px; height: 85px;
+            border-radius: 50%;
+            border: 1px solid var(--gold);
+            background: transparent;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .play-btn:hover { background: var(--gold); transform: scale(1.08); }
+        .play-btn svg { fill: var(--gold); width: 28px; transition: 0.4s; }
+        .play-btn:hover svg { fill: #000; }
+
+        .viz { display: flex; gap: 6px; height: 30px; align-items: center; }
+        .bar { width: 2px; height: 100%; background: var(--gold); animation: pulse 1.2s infinite alternate; animation-play-state: paused; }
+
+        @keyframes pulse { from { height: 4px; } to { height: 30px; } }
+
+        /* Карточки */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            margin-top: 120px;
+            border: 1px solid var(--border);
+        }
+
+        .card { background: var(--bg); padding: 60px 30px; }
+        .card h4 { color: var(--gold); font-size: 11px; text-transform: uppercase; letter-spacing: 4px; margin-bottom: 15px; font-weight: 400; }
+        .card p { font-size: 15px; font-weight: 200; opacity: 0.5; line-height: 1.6; }
+
+        @media (max-width: 768px) {
+            .text-main { font-size: 1.9rem; }
+            .cards { grid-template-columns: 1fr; }
+            .quote-box { padding: 50px 30px; }
+            .main-wrapper { margin-top: 120px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="aura"></div>
+<div class="marquee">
+    <div class="marquee-inner" id="marqueeList"></div>
+</div>
+
+<div class="main-wrapper">
+    <div class="lang-dropdown">
+        <select id="langSelect" onchange="loadLang()"></select>
+    </div>
+
+    <div class="quote-box" id="quoteBox">
+        <div class="text-main" id="qText">Инициализация...</div>
+        <div class="text-trans" id="tText">Loading global data...</div>
+
+        <div class="audio-ui">
+            <button class="play-btn" onclick="toggleAudio()">
+                <svg viewBox="0 0 24 24" id="pIcon"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <div class="viz" id="viz"></div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card"><h4 id="l1">...</h4><p id="v1">...</p></div>
+        <div class="card"><h4 id="l2">...</h4><p id="v2">...</p></div>
+        <div class="card"><h4 id="l3">...</h4><p id="v3">...</p></div>
+    </div>
+</div>
+
+<script>
+    let translations = {};
+    const languages = [
+        "Russian", "Hebrew", "English", "Yiddish", "French", "Spanish", "German", "Portuguese", "Italian", "Polish",
+        "Dutch", "Ukrainian", "Belarusian", "Hungarian", "Czech", "Turkish", "Arabic", "Persian", "Hindi", "Chinese",
+        "Japanese", "Korean", "Greek", "Romanian", "Bulgarian", "Serbian", "Danish", "Finnish", "Norwegian", "Swedish",
+        "Indonesian", "Malay", "Thai", "Vietnamese", "Kazakh", "Uzbek", "Georgian", "Armenian", "Azerbaijani", "Tatar",
+        "Amharic", "Albanian", "Latvian", "Lithuanian", "Estonian", "Icelandic", "Welsh", "Swahili", "IsiZulu", "Afrikaans",
+        "Urdu", "Bengali", "Punjabi", "Marathi", "Telugu", "Tamil", "Gujarati", "Kannada", "Malayalam", "Sinhala",
+        "Burmese", "Khmer", "Lao", "Mongolian", "Tagalog", "Macedonian", "Slovenian", "Slovak", "Latin", "Esperanto"
+    ];
+
+    async function init() {
+        const select = document.getElementById('langSelect');
+        const marquee = document.getElementById('marqueeList');
+        
+        languages.forEach(l => {
+            select.add(new Option(l, l));
+            marquee.innerHTML += `<span>TEHILLIM UNITY • ${l}</span>`;
+        });
+        marquee.innerHTML += marquee.innerHTML;
+
+        const viz = document.getElementById('viz');
+        for(let i=0; i<15; i++) {
+            viz.innerHTML += `<div class="bar" style="animation-delay: ${i*0.1}s"></div>`;
+        }
+
+        try {
+            const files = ['data1.json', 'data2.json', 'data3.json'];
+            const results = await Promise.all(files.map(f => fetch(f).then(r => r.ok ? r.json() : {}).catch(() => ({}))));
+            translations = Object.assign({}, ...results);
+            loadLang();
+        } catch (e) {
+            document.getElementById('qText').innerText = "Ошибка загрузки. Пожалуйста, используйте локальный веб-сервер.";
+        }
+    }
+
+    function loadLang() {
+        const lang = document.getElementById('langSelect').value;
+        const box = document.getElementById('quoteBox');
+        let data = translations[lang];
+
+        if(!data) {
+            data = {
+                quote: `The blessing of Tehillim transcends all borders. Reading daily brings material and spiritual merit to all.`,
+                transcription: `[Phonetic data for ${lang} is being updated]`,
+                blessings: ["Children", "Health", "Livelihood"],
+                details: ["Generations", "Vitality", "Prosperity"]
+            };
+        }
+
+        box.style.opacity = 0;
+        setTimeout(() => {
+            document.getElementById('qText').innerText = data.quote;
+            document.getElementById('tText').innerText = data.transcription;
+            document.getElementById('l1').innerText = data.blessings[0];
+            document.getElementById('v1').innerText = data.details[0];
+            document.getElementById('l2').innerText = data.blessings[1];
+            document.getElementById('v2').innerText = data.details[1];
+            document.getElementById('l3').innerText = data.blessings[2];
+            document.getElementById('v3').innerText = data.details[2];
+            box.style.opacity = 1;
+        }, 400);
+    }
+
+    let isPlaying = false;
+    function toggleAudio() {
+        isPlaying = !isPlaying;
+        const icon = document.getElementById('pIcon');
+        const bars = document.querySelectorAll('.bar');
+        if(isPlaying) {
+            icon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+            bars.forEach(b => b.style.animationPlayState = 'running');
+        } else {
+            icon.innerHTML = '<path d="M8 5v14l11-7z"/>';
+            bars.forEach(b => b.style.animationPlayState = 'paused');
+        }
+    }
+    init();
+</script>
+</body>
+</html>
