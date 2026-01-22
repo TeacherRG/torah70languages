@@ -1,0 +1,44 @@
+{
+  "Urdu": {
+    "quote": "تہلیم (زبور) کی تلاوت (روزانہ صبح کی نماز کے بعد) اس بات پر منحصر نہیں ہے کہ یہ کس عبادت گاہ میں کی جاتی ہے۔ آپ کی عبادت گاہ میں نماز کا کوئی بھی طریقہ رائج ہو: حباد، اشکنازی، یا پولش۔ ساتھی یہودیوں سے محبت کے حکم کی تکمیل کے لیے… اور خاص طور پر منیان (باجماعت تلاوت) میں تہلیم پڑھنے کی اہمیت کے تناظر میں۔ کیونکہ یہ مادی طور پر: بچوں کی پیدائش، صحت، اور روزی پر؛ اور روحانی طور پر بھی، مکمل طور پر تمام یہودیوں پر اثر انداز ہوتا ہے۔ ہمیں اپنی پوری طاقت لگا دینی چاہیے تاکہ یہ رواج تمام عبادت گاہوں میں جڑ پکڑ لے، چاہے وہ کسی بھی طریقے پر عمل پیرا ہوں۔",
+    "transcription": "Te-hil-lim ki ti-la-wat (ro-za-na subh ki na-maz ke baad)... Cha-baad, Ash-ke-na-zi, ya Po-lish. A-ha-vat Is-ra-el...",
+    "blessings": ["اولاد", "صحت", "رزق"],
+    "details": ["اولاد کی نعمت", "جسمانی توانائی", "مالی کامیابی"]
+  },
+  "Bengali": {
+    "quote": "তেহিলিম (স্তোত্র) পাঠ (প্রতিদিন সকালের প্রার্থনার পর) এটি কোন সিনাগগে করা হচ্ছে তার উপর নির্ভর করে না। আপনার সিনাগগে প্রার্থনার যে শৈলীই অনুসরণ করা হোক না কেন: চাবাদ, আশকেনাজি বা পোলিশ। ইহুদি ভাইদের প্রতি ভালোবাসার আজ্ঞা পালনের জন্য… এবং বিশেষ করে মিনিয়ানে (দলগতভাবে) তেহিলিম পড়ার গুরুত্বের প্রেক্ষাপটে। কারণ এটি বস্তুগতভাবে: সন্তানদের জন্ম, স্বাস্থ্য এবং জীবিকার উপর; এবং আধ্যাত্মিকভাবেও সমস্ত ইহুদিদের উপর গভীরভাবে প্রভাব ফেলে। আমাদের সর্বাত্মক প্রচেষ্টা চালানো উচিত যাতে এই রীতি সমস্ত সিনাগগে প্রতিষ্ঠিত হয়, তারা যে শৈলীই অনুসরণ করুক না কেন।",
+    "transcription": "Te-hi-lim pa-th (pro-ti-din so-ka-ler prar-tho-nar por)... Cha-bad, Ash-ke-na-zi, ba Po-lish. A-ha-vat Is-ra-el...",
+    "blessings": ["সন্তান", "স্বাস্থ্য", "জীবিকা"],
+    "details": ["সন্তান লাভ", "শারীরিক শক্তি", "আর্থিক সাফল্য"]
+  },
+  "Marathi": {
+    "quote": "तेहिलिमचे वाचन (दररोज सकाळच्या प्रार्थनेनंतर) ते कोणत्या सिनेगॉगमध्ये केले जाते यावर अवलंबून नाही. तुमच्या सिनेगॉगमध्ये प्रार्थनेची कोणतीही पद्धत पाळली जात असली तरी: चबाद, अश्केनाझी किंवा पोलिश. ज्यू बांधवांवरील प्रेमाच्या आज्ञेसाठी… आणि विशेषतः मिनयानमध्ये तेहिलिम वाचण्याच्या महत्त्वाच्या संदर्भात. कारण याचा भौतिकदृष्ट्या: मुलांचा जन्म, आरोग्य आणि उपजीविकेवर; आणि आध्यात्मिकदृष्ट्याही सर्व ज्यूंवर पूर्णपणे प्रभाव पडतो. ही प्रथा सर्व सिनेगॉगमध्ये रुजण्यासाठी आपण आपली सर्व शक्ती लावली पाहिजे, मग ते कोणत्याही पद्धतीचे पालन करत असले तरीही.",
+    "transcription": "Te-hi-lim-che va-chan (dar-roj sa-kal-cha prar-tha-ne-nan-tar)... Cha-bad, Ash-ke-na-zi, ya Po-lish. A-ha-vat Is-ra-el...",
+    "blessings": ["मुले", "आरोग्य", "उपजीविका"],
+    "details": ["संतान प्राप्ती", "शारीरिक शक्ती", "आर्थिक यश"]
+  },
+  "Mongolian": {
+    "quote": "Тэхиллим [ном]-ыг унших нь (өдөр бүр өглөөний залбирлын дараа) аль синагогт [хийгдэж байгаагаас] хамаарахгүй. Танай синагогт залбирлын ямар ч хэв маяг баримталдаг байсан: Хабад, Ашкенази эсвэл Польш. Еврей хүмүүсийг хайрлах [тушаалыг биелүүлэхийн] тулд… ялангуяа миньянаар Тэхиллим уншихын ач холбогдлын хүрээнд. Учир нь энэ нь материаллаг байдлаар: хүүхэд төрөх, эрүүл мэнд, амьжиргаанд; мөн оюун санааны хувьд бүх еврейчүүдэд туйлын их нөлөөлдөг. Залбирлын ямар ч хэв маягийг баримталдаг байсан, энэ [зан заншил] бүх синагогуудад нутагшихын тулд бид бүх хүчээ дайчлах ёстой.",
+    "transcription": "Te-khil-lim un-shikh (ö-dör bü-r ö-glöö-ni-i zal-bi-r-lyn da-ra-a)... Kha-bad, Ash-ke-na-zi e-s-vel Pol-sh. A-ha-vat Is-ra-el...",
+    "blessings": ["Хүүхэд", "Эрүүл мэнд", "Амьжиргаа"],
+    "details": ["Хүүхэд төрөх", "Биеийн хүч", "Эдийн засгийн амжилт"]
+  },
+  "Tagalog": {
+    "quote": "Ang pagbabasa ng [aklat ng] Tehillim (araw-araw pagkatapos ng panalangin sa umaga) ay hindi nakadepende sa kung saang sinagoga [ito ginagawa]. Anuman ang estilo [ng panalangin na sinusunod sa inyong sinagoga:] Chabad, Ashkenaz, o Polish. Alang-alang sa [pagtupad sa utos ng] pagmamahal sa mga kapwa Judio… at lalo na sa konteksto ng kahalagahan ng pagbabasa ng Tehillim sa isang minyan. Sapagkat ito ay ganap na nakakaapekto sa lahat ng mga Judio, sa materyal na [aspeto]: sa pagkakaroon ng mga anak, sa kalusugan, sa kabuhayan; gayundin sa espirituwal na [aspeto]. Dapat nating ibuhos ang lahat ng ating makakaya upang ang [kaugaliang ito] ay mag-ugat sa lahat ng mga sinagoga, anuman ang estilo [ng panalangin] na kanilang sinusunod.",
+    "transcription": "Ang pag-ba-ba-sa ng Te-hil-lim (a-raw-a-raw pag-ka-ta-pos ng pa-na-la-ngin)... Cha-bad, Ash-ke-naz, o Po-lish. A-ha-vat Is-ra-el...",
+    "blessings": ["Mga Anak", "Kalusugan", "Kabuhayan"],
+    "details": ["Pagkakaroon ng anak", "Lakas ng katawan", "Tagumpay sa buhay"]
+  },
+  "Afrikaans": {
+    "quote": "Die lees van [die boek] Tehillim (daagliks na die oggendgebed) hang nie af van in watter sinagoge [dit geskied nie]. Maak nie saak watter styl [van gebed in u sinagoge gevolg word nie:] Chabad, Ashkenazi of Pools. Ter wille van [die nakoming van die gebod van] liefde vir medejode… en veral in die konteks van die belangrikheid van die lees van Tehillim in 'n minjan. Want dit beïnvloed absoluut alle Jode, sowel op materiële [vlak]: op die geboorte van kinders, op gesondheid, op verdienste; asook op geestelike [vlak]. Ons moet al ons kragte inspan sodat [hierdie gebruik] in alle sinagoges wortel skiet, ongeag die styl [van gebed] wat hulle volg.",
+    "transcription": "Die lees van Te-hil-lim (daag-liks na die og-gend-ge-bed)... Cha-bad, Ash-ke-na-zi of Pools. A-ha-vat Is-ra-el...",
+    "blessings": ["Kinders", "Gesondheid", "Verdienst"],
+    "details": ["Geboorte van kinders", "Liggaamlike krag", "Materiële sukses"]
+  },
+  "Esperanto": {
+    "quote": "La legado de [la libro] Tehillim (ĉiutage post la matena preĝo) ne dependas de tio, en kiu sinagogo [ĝi okazas]. Kia ajn stilo [de preĝo estas sekvata en via sinagogo:] Ĥabada, Aŝkenaza, aŭ Pola. Pro [la plenumo de la ordono de] amo al Judoj… kaj precipe en la kunteksto de la graveco de legado de Tehillim en minjano. Ĉar tio tute influas ĉiujn Judojn, tiel en materia [plano]: pri la naskiĝo de infanoj, pri sano, pri enspezo; kiel ankaŭ en spirita [plano]. Ni devas uzi ĉiujn fortojn por ke [ĉi tiu kutimo] enradikiĝu en ĉiuj sinagogoj, kian ajn stilon [de preĝo] ili sekvas.",
+    "transcription": "La le-ga-do de Te-hil-lim (ĉi-u-ta-ge post la ma-te-na pre-ĝo)... Ĥa-ba-da, Aŝ-ke-na-za, aŭ Po-la. A-ha-vat Is-ra-el...",
+    "blessings": ["Infanoj", "Sano", "Enspezo"],
+    "details": ["Naskiĝo de infanoj", "Korpa forto", "Materia sukceso"]
+  }
+}

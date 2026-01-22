@@ -1,0 +1,56 @@
+{
+  "Slovenčina": {
+    "quote": "Čítanie [knihy] Tehillim (každý deň po rannej modlitbe) nezávisí od toho, v ktorej synagóge [sa tak deje]. Bez ohľadu na to, aký štýl [modlitby sa vo vašej synagóge dodržiava:] chabadský, aškenázsky alebo poľský. Kvôli [naplneniu prikázania] lásky k Židom… a najmä v kontexte dôležitosti čítania Tehillim v minjane. Veď to ovplyvňuje absolútne všetkých Židov, tak v materiálnej [rovine]: na narodenie detí, na zdravie, na živobytie; ako aj v rovine duchovnej. Musíme vynaložiť všetko úsilie, aby sa [tento zvyk] zakorenil vo všetkých synagógach, bez ohľadu na to, aký štýl [modlitby] dodržiavajú.",
+    "transcription": "Číta-nie Te-hil-lim (kaž-dý deň po ran-nej mod-lit-be)... Cha-bad-ský, aš-ke-náz-sky a-le-bo poľ-ský. A-ha-vat Is-ra-el...",
+    "blessings": ["Deti", "Zdravie", "Živobytie"],
+    "details": ["Narodenie detí", "Telesná sila", "Materiálny úspech"]
+  },
+  "Dansk": {
+    "quote": "Læsningen af [bogen] Tehillim (dagligt efter morgenbønnen) afhænger ikke af, i hvilken synagoge [det finder sted]. Uanset hvilken stil [af bøn der følges i din synagoge:] Chabad, askenazisk eller polsk. For [budet om] kærlighed til medjøders skyld… og især i sammenhæng med vigtigheden af at læse Tehillim i en minjan. Dette påvirker jo absolut alle jøder, både materielt: med hensyn til børnefødsler, sundhed, levebrød; og åndeligt. Vi skal opbyde alle vores kræfter for at [denne skik] kan slå rod i alle synagoger, uanset hvilken bønestil de følger.",
+    "transcription": "Læs-ning-en af Te-hil-lim (dag-ligt ef-ter mor-gen-bøn-nen)... Cha-bad, as-ke-na-sisk el-ler polsk. A-ha-vat Is-ra-el...",
+    "blessings": ["Børn", "Sundhed", "Levebrød"],
+    "details": ["Børnefødsler", "Kropslig styrke", "Materiel succes"]
+  },
+  "Suomi": {
+    "quote": "Tehillimin [kirjan] lukeminen (päivittäin aamurukouksen jälkeen) ei riipu siitä, missä synagogassa [se tapahtuu]. Riippumatta siitä, mitä [rukous]tyyliä synagogassanne noudatetaan: Chabadia, askenaasia tai puolalaista. Juutalaisia kohtaan osoitettavan rakkauden [käskyn täyttämisen] tähden… ja erityisesti Tehillimin minjanissa lukemisen tärkeyden vuoksi. Sillä tämä vaikuttaa ehdottomasti kaikkiin juutalaisiin, niin aineellisesti: lasten syntymään, terveyteen, toimeentuloon; kuin hengellisestikin. Meidän on ponnisteltava kaikin voimin, jotta [tämä tapa] juurtuisi kaikkiin synagogiin, riippumatta siitä, mitä [rukous]tyyliä ne noudattavat.",
+    "transcription": "Te-hil-li-min lu-ke-mi-nen (päi-vit-täin aa-mu-ru-kouk-sen jäl-keen)... Cha-ba-dia, as-ke-naa-sia tai puo-la-lais-ta. A-ha-vat Is-ra-el...",
+    "blessings": ["Lapset", "Terveys", "Toimeentulo"],
+    "details": ["Lasten syntymä", "Ruumiillinen voima", "Aineellinen menestys"]
+  },
+  "Հայերեն": {
+    "quote": "Թեհիլիմ [գրքի] ընթերցումը (ամեն օր առավոտյան աղոթքից հետո) կախված չէ այն բանից, թե որ սինագոգում է [դա կատարվում]։ Անկախ նրանից, թե աղոթքի ինչ ոճ է [ընդունված ձեր սինագոգում]՝ հաբադական, աշկենազական, թե լեհական։ Հանուն հրեաների հանդեպ սիրո [պատվիրանի կատարման]… և հատկապես մինյանով Թեհիլիմ կարդալու կարևորության համատեքստում։ Քանզի դա բացարձակապես ազդում է բոլոր հրեաների վրա, ինչպես նյութական [առումով]՝ երեխաների ծննդյան, առողջության, ապրուստի վրա, այնպես էլ հոգևոր [առումով]։ Մենք պետք է գործադրենք բոլոր ջանքերը, որպեսզի [այս սովորույթը] արմատավորվի բոլոր սինագոգներում, անկախ նրանից, թե աղոթքի ինչ ոճի են նրանք հարում։",
+    "transcription": "T'e-hi-lim [gr-k'i] yn-t'er-ts'u-my (a-men òr a-ra-vòt-yan a-ghòt'-k'its' he-tò)... Ha-ba-da-kan, ash-ke-na-za-kan t'e le-ha-kan. A-ha-vat Is-ra-el...",
+    "blessings": ["Երեխաներ", "Առողջություն", "Ապրուստ"],
+    "details": ["Երեխաների ծնունդ", "Ֆիզիկական ուժ", "Նյութական հաջողություն"]
+  },
+  "Azərbaycanca": {
+    "quote": "Tehillim [kitabının] oxunması (hər gün səhər duasından sonra) bunun hansı sinaqoqda [edilməsindən] asılı deyil. Sinaqoqunuzda hansı [dua] üslubuna riayət olunmasından asılı olmayaraq: Xabad, aşkenaz və ya polyak. Yəhudilərə olan sevgi [əmrinin yerinə yetirilməsi] naminə… və xüsusilə Tehillimin minyanda oxunmasının vacibliyi kontekstində. Çünki bu, mütləq şəkildə bütün yəhudilərə həm maddi cəhətdən: uşaqların doğulmasına, sağlamağa, qazanca; həm də mənəvi cəhətdən təsir edir. Hansı [dua] üslubuna sahib olmalarından asılı olmayaraq, bu [adətin] bütün sinaqoqlarda kök salması üçün hər cür səy göstərməliyik.",
+    "transcription": "Te-hil-lim o-qun-ma-sı (hər gün sə-hər du-as-ın-dan son-ra)... Kha-bad, ash-ke-naz və ya po-lyak. A-ha-vat Is-ra-el...",
+    "blessings": ["Uşaqlar", "Sağlamlıq", "Qazanc"],
+    "details": ["Uşaqların doğulması", "Bədən sağlığı", "Maddi uğur"]
+  },
+  "Tiếng Việt": {
+    "quote": "Việc đọc [cuốn sách] Tehillim (hàng ngày sau buổi cầu nguyện buổi sáng) không phụ thuộc vào việc nó được thực hiện ở giáo đường nào. Bất kể phong cách [cầu nguyện nào được tuân theo trong giáo đường của bạn:] Chabad, Ashkenaz hay Ba Lan. Vì lợi ích của [việc thực hiện điều răn] yêu thương đồng bào Do Thái… và đặc biệt là trong bối cảnh tầm quan trọng của việc đọc Tehillim trong một minyan. Vì điều này ảnh hưởng tuyệt đối đến tất cả người Do Thái, cả về mặt vật chất: đối với việc sinh con, sức khỏe, kế sinh nhai; cũng như về mặt tâm linh. Chúng ta phải nỗ lực hết sức để [tập tục này] bén rễ trong tất cả các giáo đường, bất kể họ theo phong cách [cầu nguyện] nào.",
+    "transcription": "Vi-ệc đọc Te-hil-lim (hàng ngày sau buổi cầu nguyện buổi sáng)... Kha-bad, Ash-ke-naz hay Ba Lan. A-ha-vat Is-ra-el...",
+    "blessings": ["Con cái", "Sức khỏe", "Kế sinh nhai"],
+    "details": ["Sự ra đời của con cái", "Sức khỏe thể chất", "Thành công vật chất"]
+  },
+  "ไทย": {
+    "quote": "การอ่าน [หนังสือ] เทฮิลลิม (ทุกวันหลังการละหมาดตอนเช้า) ไม่ได้ขึ้นอยู่กับว่าดำเนินการในธรรมศาลาใด ไม่ว่าสไตล์ [การสวดภาวนาที่ปฏิบัติในธรรมศาลาของคุณจะเป็นอย่างไร:] ชะบาด, อัชเคนาซ หรือโปแลนด์ เพื่อเห็นแก่ [การปฏิบัติตามบัญญัติแห่ง] ความรักต่อเพื่อนชาวยิว… และโดยเฉพาะอย่างยิ่งในบริบทของความสำคัญของการอ่านเทฮิลลิมในมินยัน เพราะสิ่งนี้ส่งผลกระทบต่อชาวยิวทุกคนอย่างแน่นอน ทั้งในด้านวัตถุ: การให้กำเนิดบุตร, สุขภาพ, การทำมาหากิน; และในด้านจิตวิญญาณ เราต้องใช้ความพยายามอย่างเต็มที่เพื่อให้ [ประเพณีนี้] หยั่งรากลึกในธรรมศาลาทุกแห่ง ไม่ว่าพวกเขาจะใช้สไตล์ [การสวดภาวนา] แบบใดก็ตาม",
+    "transcription": "Kan-an Te-hil-lim (tuk wan lang kan-suat-pha-wa-na ton-chao)... Cha-bat, At-khe-nat rue Po-laen. A-ha-wat It-ra-en...",
+    "blessings": ["บุตร", "สุขภาพ", "การทำมาหากิน"],
+    "details": ["การกำเนิดบุตร", "ความแข็งแรงของร่างกาย", "ความสำเร็จทางวัตถุ"]
+  },
+  "Татарча": {
+    "quote": "Тэһилим [китабын] уку (һәркөн иртәнге догадан соң), аның кайсы синагогада [башкарылуына] бәйле түгел. Синагогагызда нинди генә [дога] стиле булмасын: Хабад, ашкеназ яки поляк стиле. Еврейләргә булган мәхәббәт [әмерен үтәү] хакына… һәм аеруча Тэһилимны миньянда укуның мөһимлеге контекстында. Чөнки бу материаль яктан: балалар тууына, сәламәтлеккә, керемгә; шулай ук рухи яктан да барлык еврейләргә абсолют рәвештә йогынты ясый. Бу [гадәтнең], нинди генә [дога] стилен тотсалар да, барлык синагогаларда тамыр җәюе өчен барлык көчебезне куярга тиեшбез.",
+    "transcription": "Te-hi-lim u-qu (här-kön ir-tän-ge do-ga-dan soñ)... Kha-bad, ash-ke-naz ya-ki po-lyak. A-ha-vat Is-ra-el...",
+    "blessings": ["Балалар", "Сәламәтлек", "Керем"],
+    "details": ["Балалар тууы", "Тән саулыгы", "Матди уңыш"]
+  },
+  "Bahasa Indonesia": {
+    "quote": "Pembacaan [kitab] Tehillim (setiap hari setelah doa pagi), tidak bergantung pada sinagoga mana [hal itu dilakukan]. Apa pun gaya [doa yang diikuti di sinagoga Anda:] Chabad, Ashkenaz, atau Polandia. Demi [menjalankan perintah] kasih sayang sesama Yahudi… dan terutama dalam konteks pentingnya membaca Tehillim dalam minyan. Karena hal ini secara mutlak mempengaruhi semua orang Yahudi, baik dalam hal materi: pada kelahiran anak, kesehatan, penghidupan; maupun dalam hal spiritual. Kita harus mengerahkan segala upaya agar [kebiasaan ini] berakar di semua sinagoga, apa pun gaya [doa] yang mereka ikuti.",
+    "transcription": "Pem-ba-ca-an Te-hil-lim (se-ti-ap ha-ri se-te-lah do-a pa-gi)... Kha-bad, Ash-ke-naz a-tau Po-lan-di. A-ha-vat Is-ra-el...",
+    "blessings": ["Anak-anak", "Kesehatan", "Penghidupan"],
+    "details": ["Kelahiran anak", "Kekuatan fisik", "Keberhasilan materi"]
+  }
+}

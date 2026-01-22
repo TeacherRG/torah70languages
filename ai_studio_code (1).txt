@@ -1,0 +1,56 @@
+{
+  "Norsk": {
+    "quote": "Lesingen av [boken] Tehillim (daglig etter morgenbønnen) avhenger ikke av hvilken synagoge [det utføres i]. Uansett hvilken stil [av bønn som følges i din synagoge:] Chabad, askenasisk eller polsk. For [budet om] kjærlighet til medjøder skyld… og spesielt i sammenheng med viktigheten av å lese Tehillim i en minjan. Dette påvirker jo absolutt alle jøder, både materielt: når det gjelder barnefødsler, helse, levebrød; og åndelig. Vi må bruke alle våre krefter på at [denne skikken] skal slå rot i alle synagoger, uansett hvilken bønestil de følger.",
+    "transcription": "Le-sing-en av Te-hil-lim (dag-lig ef-ter mor-gen-bøn-nen)... Cha-bad, as-ke-na-sisk el-ler polsk. A-ha-vat Is-ra-el...",
+    "blessings": ["Barn", "Helse", "Levebrød"],
+    "details": ["Barnefødsler", "Kroppslig styrke", "Materiell suksess"]
+  },
+  "Lietuvių": {
+    "quote": "Tehillim [knygos] skaitymas (kasdien po rytinės maldos) nepriklauso nuo to, kurioje sinagogoje [tai vyksta]. Nesvarbu, kokio [maldos] stiliaus laikomasi jūsų sinagogoje: Chabad, aškenazių ar lenkų. Dėl [įsakymo] meilės žydams… o ypač dėl Tehillim skaitymo minjane svarbos. Juk tai daro įtaką visiškai visiems žydams tiek materialiai: vaikų gimimui, sveikatai, pragyvenimui; tiek dvasiškai. Turime įdėti visas pastangas, kad [šis paprotys] įsitvirtintų visose sinagogose, nepriklausomai nuo to, kokio [maldos] stiliaus jos laikosi.",
+    "transcription": "Te-hil-lim skai-ty-mas (kas-dien po ry-ti-nės mal-dos)... Cha-bad, aš-ke-na-zių ar len-kų. A-ha-vat Is-ra-el...",
+    "blessings": ["Vaikai", "Sveikata", "Pragyvenimas"],
+    "details": ["Vaikų gimimas", "Kūno stiprybė", "Materialinė sėkmė"]
+  },
+  "Latviešu": {
+    "quote": "Tehillim [grāmatas] lasīšana (katru dienu pēc rīta lūgšanas) nav atkarīga no tā, kurā sinagogā [tas notiek]. Neatkarīgi no tā, kāds [lūgšanas] stils tiek ievērots jūsu sinagogā: Habadas, aškenazu vai poļu. Ebreju mīlestības [baušļa izpildes] dēļ… un īpaši Tehillim lasīšanas minjanā nozīmīguma kontekstā. Jo tas absolūti ietekmē visus ebrejus gan materiāli: bērnu piedzimšanu, veselību, iztiku; gan garīgi. Mums jāpieliek visas pūles, lai [šī paraža] iesakņotos visās sinagogās, neatkarīgi no tā, kādu [lūgšanas] stilu tās ievēro.",
+    "transcription": "Te-hil-lim la-sī-ša-na (kat-ru die-nu pēc rī-ta lūg-ša-nas)... Ha-ba-das, aš-ke-na-zu vai po-ļu. A-ha-vat Is-ra-el...",
+    "blessings": ["Bērni", "Veselība", "Iztika"],
+    "details": ["Bērnu piedzimšana", "Ķermeņa spēks", "Materiālie panākumi"]
+  },
+  "Eesti": {
+    "quote": "Tehillimi [raamatu] lugemine (iga päev pärast hommikupalvust) ei sõltu sellest, millises sünagoogis [seda tehakse]. Olenemata sellest, millist [palve]stiili teie sünagoogis järgitakse: Chabadi, aškenazi või poola stiili. Armastuse [käsu täitmise] nimel juutide vastu… ja eriti Tehillimi minjanis lugemise tähtsuse kontekstis. Sest see mõjutab absoluutselt kõiki juute nii materiaalselt: laste sündi, tervist, elatist; kui ka vaimselt. Peame tegema kõik jõupingutused, et [see komme] juurduks kõigis sünagoogides, olenemata sellest, millist [palve]stiili nad järgivad.",
+    "transcription": "Te-hil-li-mi lu-ge-mi-ne (i-ga pä-ev pä-rast hom-mi-ku-pal-vust)... Cha-ba-di, aš-ke-na-zi või poo-la. A-ha-vat Is-ra-el...",
+    "blessings": ["Lapsed", "Tervis", "Elatis"],
+    "details": ["Laste sünd", "Kehaline jõud", "Materiaalne edu"]
+  },
+  "한국어": {
+    "quote": "테힐림(시편) 낭독(매일 아침 기도 후)은 어느 회당에서 [수행되는지]에 달려 있지 않습니다. 여러분의 회당이 하바드, 아슈케나즈, 폴란드식 중 어떤 [기도] 양식을 따르든 상관없습니다. 유대인 동포에 대한 사랑의 [계명을 성취하기] 위해… 특히 미니안(10인의 정족수)에서 테힐림을 읽는 것의 중요성 맥락에서 그러합니다. 왜냐하면 이것은 물질적인 면(자녀의 탄생, 건강, 생계)과 영적인 면 모두에서 모든 유대인에게 절대적으로 영향을 미치기 때문입니다. 우리는 어떤 [기도] 양식을 따르든 모든 회당에서 [이 관습이] 뿌리 내릴 수 있도록 모든 노력을 기울여야 합니다.",
+    "transcription": "Te-hil-lim nang-dok (mae-il a-chim gi-do hu)... Ha-ba-deu, a-syu-ke-na-jeu, pol-lan-deu. A-ha-vat Is-ra-el...",
+    "blessings": ["자녀", "건강", "생계"],
+    "details": ["자녀의 탄생", "신체의 강건함", "물질적 성공"]
+  },
+  "Srpski": {
+    "quote": "Čitanje [knjige] Tehilima (svaki dan nakon jutarnje molitve) ne zavisi od toga u kojoj se sinagogi [to obavlja]. Bez obzira na to koji se stil [molitve sledi u vašoj sinagogi:] habadski, aškenaski ili poljski. Radi [ispunjavanja zapovesti] ljubavi prema Jevrejima… a posebno u kontekstu važnosti čitanja Tehilima u minjanu. Jer to apsolutno utiče na sve Jevreje, kako u materijalnom [pogledu]: na rađanje dece, na zdravlje, na zaradu; tako i u duhovnom [pogledu]. Moramo uložiti sve snage kako bi se [ovaj običaj] ukorenio u svim sinagogama, bez obzira na to koji stil [molitve] one sledile.",
+    "transcription": "Či-ta-nje Te-hi-li-ma (sva-ki dan na-kon ju-tar-nje mo-lit-ve)... Kha-bad-ski, aš-ke-nas-ki i-li polj-ski. A-ha-vat Is-ra-el...",
+    "blessings": ["Deca", "Zdravlje", "Zarada"],
+    "details": ["Rađanje dece", "Telesna snaga", "Materijalni uspeh"]
+  },
+  "Shqip": {
+    "quote": "Leximi i [librit] të Tehillimit (çdo ditë pas lutjes së mëngjesit) nuk varet nga ajo se në cilën sinagogë [kryhet]. Pa marrë parasysh se cilin stil [të lutjes ndiqni në sinagogën tuaj:] Habad, Ashkenaz apo polak. Për hir të [përmbushjes së urdhërimit të] dashurisë për hebrenjtë… dhe veçanërisht në kontekstin e rëndësisë së leximit të Tehillimit në minjan. Sepse kjo ndikon absolutisht te të gjithë hebrenjtë, si në planin material: në lindjen e fëmijëve, në shëndet, në fitime; ashtu edhe në planin shpirtëror. Ne duhet të bëjmë të gjitha përpjekjet që [ky zakon] të rrënjoset në të gjitha sinagogat, cilindo stil [të lutjes] që ato ndjekin.",
+    "transcription": "Le-xi-mi i Te-hil-li-mit (çdo di-të pas lu-tjes së mën-gje-sit)... Ha-bad, Ash-ke-naz a-po po-lak. A-ha-vat Is-ra-el...",
+    "blessings": ["Fëmijët", "Shëndeti", "Fitimet"],
+    "details": ["Lindja e fëmijëve", "Forca fizike", "Suksesi material"]
+  },
+  "IsiZulu": {
+    "quote": "Ukufundwa [kwencwadi] yeTehillim (nsuku zonke emva komkhuleko wasekuseni), akuncikile ekutheni kwenziwa kuyiphi isinagoge. Akunandaba ukuthi hlobo luni [lomthandazo olulandelwayo esinagogeni lenu:] iChabad, i-Ashkenaz, noma i-Polish. Ngenxa [yokugcinwa komyalelo] wokuthanda amaJuda… ikakhulukazi endabeni yokubaluleka kokufunda iTehillim eminyaneni. Ngoba lokhu kuthinta wonke amaJuda nakanjani, kokubili kokubonakalayo: ekuzalweni kwabantwana, empilweni, ekuziphenseni; nasekuhambeni konyaka okungokomoya. Kufanele senze yonke imizamo ukuze [leli siko] ligxile kuzo zonke izisinagoge, kungakhathaliseki ukuthi hlobo luni [lomthandazo] abalulandelayo.",
+    "transcription": "U-ku-fun-dwa kwe-Te-hil-lim (nsu-ku zon-ke e-mva ko-mkhu-le-ko)... Cha-bad, Ash-ke-naz no-ma Po-lish. A-ha-vat Is-ra-el...",
+    "blessings": ["Abantwana", "Impilo", "Ukuziphilisa"],
+    "details": ["Ukuzalwa kwabantwana", "Amandla omzimba", "Impumelelo yezinto"]
+  },
+  "Latin": {
+    "quote": "Lectio [libri] Tehillim (quotidie post precem matutinam), non pendet e synagoga in qua [fit]. Quocumque modo [precandi in synagoga vestra utantur:] Chabad, Ashkenaz, aut Polonico. Propter [praeceptum] amoris erga Judaeos… et praesertim in contextu momenti lectionis Tehillim in minyan. Etenim hoc omnino afficit omnes Judaeos, tam in rebus materialibus: in nativitate liberorum, in valetudine, in victu; quam in rebus spiritualibus. Omnes vires adhibere debemus ut [haec consuetudo] in omnibus synagogis radicem agat, quocumque modo [precandi] utantur.",
+    "transcription": "Lec-ti-o Te-hil-lim (quo-ti-di-e post pre-cem ma-tu-ti-nam)... Cha-bad, Ash-ke-naz, aut Po-lo-ni-co. A-ha-vat Is-ra-el...",
+    "blessings": ["Liberi", "Valetudo", "Victus"],
+    "details": ["Nativitas liberorum", "Robur corporis", "Successus materialis"]
+  }
+}
