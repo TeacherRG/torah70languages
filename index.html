@@ -273,13 +273,14 @@
         "Tamil", "Gujarati", "Kannada", "Malayalam", "Sinhala",
         "Burmese", "Khmer", "Lao", "Mongolian", "Tagalog", "Macedonian", "Slovenian", "Slovak", "Latin", "Esperanto"
     ];
+    const priorityLanguages = languages.slice(0, 11);
 
     async function init() {
         const select = document.getElementById('langSelect');
         const marquee = document.getElementById('marqueeList');
         
         languages.forEach(l => {
-            select.add(new Option(l, l));
+            select.add(new Option(priorityLanguages.includes(l) ? `★ ${l}` : l, l));
             marquee.innerHTML += `<span>TEHILLIM UNITY • ${l}</span>`;
         });
         marquee.innerHTML += marquee.innerHTML;
