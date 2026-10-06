@@ -73,6 +73,21 @@
 
         .lang-dropdown { margin-bottom: 70px; }
 
+        .mode-select {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .passage-meta {
+            margin-top: 24px;
+            color: var(--gold);
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+
         select {
             background: transparent;
             border: 1px solid var(--border);
@@ -180,13 +195,20 @@
 </div>
 
 <div class="main-wrapper">
+    <div class="mode-select">
+        <select id="modeSelect" aria-label="Reading mode" onchange="loadLang()">
+            <option value="tehillim">Tehillim</option>
+            <option value="torah">Key Torah passages</option>
+        </select>
+    </div>
     <div class="lang-dropdown">
-        <select id="langSelect" onchange="loadLang()"></select>
+        <select id="langSelect" aria-label="Language" onchange="loadLang()"></select>
     </div>
 
     <div class="quote-box" id="quoteBox">
         <div class="text-main" id="qText">Инициализация...</div>
         <div class="text-trans" id="tText">Loading global data...</div>
+        <div class="passage-meta" id="passageMeta" hidden></div>
 
         <div class="audio-ui">
             <button class="play-btn" onclick="toggleAudio()">
@@ -205,6 +227,21 @@
 
 <script>
     let translations = {};
+    const torahTranslations = {
+        Hebrew: {
+            quote: "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ׃",
+            attribution: "Hebrew — original text"
+        },
+        Russian: {
+            quote: "В начале сотворил Бог небо и землю.",
+            attribution: "Русский Синодальный перевод"
+        },
+        English: {
+            quote: "In the beginning God created the heaven and the earth.",
+            attribution: "King James Version"
+        }
+    };
+    const genesisOpening = "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ׃";
     const languages = [
         "Russian", "Hebrew", "English", "Yiddish", "French", "Spanish", "German", "Portuguese", "Italian", "Polish",
         "Dutch", "Ukrainian", "Belarusian", "Hungarian", "Czech", "Turkish", "Arabic", "Persian", "Hindi", "Chinese",
@@ -242,7 +279,40 @@
 
     function loadLang() {
         const lang = document.getElementById('langSelect').value;
+        const mode = document.getElementById('modeSelect').value;
         const box = document.getElementById('quoteBox');
+        const audio = document.querySelector('.audio-ui');
+        const cards = document.querySelector('.cards');
+        const passageMeta = document.getElementById('passageMeta');
+        const quoteText = document.getElementById('qText');
+        const translationText = document.getElementById('tText');
+
+        if (mode === 'torah') {
+            const translation = torahTranslations[lang];
+            box.style.opacity = 0;
+            audio.hidden = true;
+            cards.hidden = true;
+            passageMeta.hidden = false;
+            quoteText.dir = lang === 'Hebrew' ? 'rtl' : 'auto';
+            translationText.dir = 'rtl';
+            setTimeout(() => {
+                quoteText.innerText = translation
+                    ? translation.quote
+                    : "Translation not yet available for this language.";
+                translationText.innerText = genesisOpening;
+                passageMeta.innerText = translation
+                    ? `Genesis 1:1 • ${translation.attribution}`
+                    : "Genesis 1:1 • Hebrew source; translation pending";
+                box.style.opacity = 1;
+            }, 400);
+            return;
+        }
+
+        audio.hidden = false;
+        cards.hidden = false;
+        passageMeta.hidden = true;
+        quoteText.dir = 'auto';
+        translationText.dir = 'auto';
         let data = translations[lang];
 
         if(!data) {
@@ -256,8 +326,8 @@
 
         box.style.opacity = 0;
         setTimeout(() => {
-            document.getElementById('qText').innerText = data.quote;
-            document.getElementById('tText').innerText = data.transcription;
+            quoteText.innerText = data.quote;
+            translationText.innerText = data.transcription;
             document.getElementById('l1').innerText = data.blessings[0];
             document.getElementById('v1').innerText = data.details[0];
             document.getElementById('l2').innerText = data.blessings[1];
