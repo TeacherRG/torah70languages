@@ -1,0 +1,13 @@
+{
+  "id": "genesis-11-1",
+  "ref": "Genesis 11:1",
+  "hebrewRef": "בראשית יא:א",
+  "hebrew": "ויהי כל הארץ שפה אחת ודברים אחדים",
+  "translations": {
+    "en": { "text": "And the whole earth was of one language and of one speech." },
+    "ru": { "text": "На всей земле был один язык и одно наречие.", "source": "Синодальный перевод" },
+    "fr": { "text": "Toute la terre avait une seule langue et les mêmes mots.", "source": "Louis Segond" },
+    "de": { "text": "Es hatte aber alle Welt einerlei Zunge und Sprache.", "source": "Luther 1912" },
+    "la": { "text": "Erat autem terra labii unius et sermonum eorumdem.", "source": "Vulgata" }
+  }
+}

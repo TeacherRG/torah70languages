@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "name": "70 LANGUAGES",
+    "hebrew": "שבעים לשון",
+    "tagline": "מילים עתיקות. אנושות אחת."
+  },
+  "nav": {
+    "home": "ראשי",
+    "texts": "האוסף",
+    "languages": "70 לשונות",
+    "seventy": "למה שבעים",
+    "menu": "תפריט",
+    "close": "סגירה",
+    "skip": "דילוג לתוכן",
+    "primary": "ניווט ראשי"
+  },
+  "actions": {
+    "explore": "לגלות את הטקסטים",
+    "viewAll": "כל 70 הלשונות",
+    "theLanguages": "70 הלשונות",
+    "read": "לקריאה",
+    "compare": "השוואת תרגומים",
+    "back": "חזרה לאוסף",
+    "readMore": "לקריאה נוספת"
+  },
+  "locale": {
+    "label": "שפת הממשק"
+  },
+  "reading": {
+    "label": "שפת הקריאה",
+    "original": "המקור",
+    "hebrew": "עברית",
+    "pending": "התרגום בהכנה",
+    "draft": "תרגום עבודה · בעריכה",
+    "source": "על פי {{source}}"
+  },
+  "regions": {
+    "europe": "אירופה",
+    "middleEast": "המזרח התיכון",
+    "southAsia": "דרום אסיה",
+    "eastAsia": "מזרח אסיה",
+    "southeastAsia": "דרום־מזרח אסיה",
+    "centralAsia": "הקווקז ומרכז אסיה",
+    "africa": "אפריקה",
+    "classical": "קלאסיות ומתוכננות"
+  },
+  "footer": {
+    "slogan": "טקסט אחד. שבעים לשונות. עולם של משמעות.",
+    "sources": "הטקסט העברי באדיבות ספריא",
+    "rights": "© {{year}} 70 Languages"
+  }
+}

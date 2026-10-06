@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "name": "70 LANGUAGES",
+    "hebrew": "שבעים לשון",
+    "tagline": "Ancient words. One humanity."
+  },
+  "nav": {
+    "home": "Home",
+    "texts": "The Core",
+    "languages": "70 Languages",
+    "seventy": "Why Seventy",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "primary": "Main navigation"
+  },
+  "actions": {
+    "explore": "Explore the texts",
+    "viewAll": "View all 70",
+    "theLanguages": "The 70 Languages",
+    "read": "Read",
+    "compare": "Compare translations",
+    "back": "Back to the collection",
+    "readMore": "Read more"
+  },
+  "locale": {
+    "label": "Interface language"
+  },
+  "reading": {
+    "label": "Reading language",
+    "original": "Original",
+    "hebrew": "Hebrew",
+    "pending": "Translation in preparation",
+    "draft": "Working translation · under review",
+    "source": "After {{source}}"
+  },
+  "regions": {
+    "europe": "Europe",
+    "middleEast": "Middle East",
+    "southAsia": "South Asia",
+    "eastAsia": "East Asia",
+    "southeastAsia": "Southeast Asia",
+    "centralAsia": "Caucasus & Central Asia",
+    "africa": "Africa",
+    "classical": "Classical & constructed"
+  },
+  "footer": {
+    "slogan": "One text. Seventy languages. A world of meaning.",
+    "sources": "Hebrew text via Sefaria",
+    "rights": "© {{year}} 70 Languages"
+  }
+}

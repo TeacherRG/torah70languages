@@ -1,0 +1,57 @@
+{
+  "texts": {
+    "metaTitle": "The Core — 70 LANGUAGES",
+    "eyebrow": "The Collection",
+    "title": "The Core",
+    "lead": "Fourteen passages from the Torah, chosen not as lessons but as a collection: the texts that have travelled furthest across languages and centuries."
+  },
+  "passage": {
+    "original": "The original",
+    "keyVerse": "Key verse",
+    "loading": "Loading the Hebrew text…",
+    "error": "The text could not be loaded. You can read it on Sefaria.",
+    "openOnSefaria": "Open on Sefaria",
+    "translationsSoon": "Translations of the full passage into all 70 languages are in preparation.",
+    "notFound": "This passage is not part of the collection."
+  },
+  "languages": {
+    "metaTitle": "The 70 Languages — 70 LANGUAGES",
+    "eyebrow": "The Languages",
+    "title": "Seventy languages",
+    "lead": "From English and Chinese to Amharic, Latin and Esperanto — the languages into which the core texts are being translated.",
+    "available": "Available",
+    "inPreparation": "In preparation",
+    "about": "Why seventy?"
+  },
+  "seventy": {
+    "metaTitle": "Why Seventy — 70 LANGUAGES",
+    "eyebrow": "A note on the number",
+    "title": "Why seventy?",
+    "lead": "Seventy is not a statistic. It is a bridge.",
+    "sections": [
+      {
+        "title": "The tradition",
+        "body": "Genesis 10 lists the descendants of Noah, and classical Jewish tradition counts among them seventy nations. Genesis 11 tells of Babel — a humanity with one language that becomes many. The Mishnah (Sotah 7:5) says the words of the Torah were inscribed on stones “in seventy languages”, and Pirkei de-Rabbi Eliezer (ch. 24) speaks of seventy nations and seventy languages. Commentators such as Ramban return to these chapters to ask what language is, and what was lost and gained at Babel."
+      },
+      {
+        "title": "What our seventy are not",
+        "body": "The seventy languages of tradition are not a list of modern languages. No classical source maps them onto English, Chinese or Swahili, and we do not claim that our list reconstructs them."
+      },
+      {
+        "title": "What our seventy are",
+        "body": "Our seventy are living languages of today, chosen for the number of people who speak them, for their reach across continents, and for the long presence of Jewish communities among them — together with Latin and Esperanto, two languages that were made to cross borders. The number is a conscious bridge between a classical idea and the modern linguistic world."
+      },
+      {
+        "title": "About the translations",
+        "body": "The Hebrew original is always shown. Where an established translation exists, we name it. All translations on this site are working translations, reviewed by native speakers before they are marked as final."
+      }
+    ],
+    "sources": "Sources",
+    "sourceList": ["Genesis 10–11", "Mishnah Sotah 7:5", "Pirkei de-Rabbi Eliezer 24", "Ramban on Genesis 11"]
+  },
+  "notFound": {
+    "metaTitle": "Not found — 70 LANGUAGES",
+    "title": "This page has not been translated into existence.",
+    "back": "Return to the beginning"
+  }
+}

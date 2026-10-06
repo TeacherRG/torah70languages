@@ -1,0 +1,18 @@
+{
+  "id": "deuteronomy-6-4",
+  "ref": "Deuteronomy 6:4",
+  "hebrewRef": "דברים ו:ד",
+  "hebrew": "שמע ישראל ה׳ אלהינו ה׳ אחד",
+  "translations": {
+    "en": { "text": "Hear, O Israel: the Lord is our God, the Lord is One." },
+    "ru": { "text": "Слушай, Израиль: Господь — Бог наш, Господь один." },
+    "zh": { "text": "以色列啊，你要听：耶和华我们的神是独一的耶和华。", "source": "Chinese Union Version" },
+    "es": { "text": "Escucha, Israel: el Señor es nuestro Dios, el Señor es uno." },
+    "fr": { "text": "Écoute, Israël : l’Éternel est notre Dieu, l’Éternel est un." },
+    "de": { "text": "Höre, Israel: Der Ewige ist unser Gott, der Ewige ist einzig." },
+    "pt": { "text": "Ouve, Israel: o Senhor é nosso Deus, o Senhor é um." },
+    "it": { "text": "Ascolta, Israele: il Signore è il nostro Dio, il Signore è uno." },
+    "uk": { "text": "Слухай, Ізраїлю: Господь — Бог наш, Господь один." },
+    "ar": { "text": "اسمع يا إسرائيل: الرب إلهنا رب واحد." }
+  }
+}

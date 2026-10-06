@@ -1,0 +1,30 @@
+{
+  "id": "genesis-1-1",
+  "ref": "Genesis 1:1",
+  "hebrewRef": "בראשית א:א",
+  "hebrew": "בראשית ברא אלהים את השמים ואת הארץ",
+  "translations": {
+    "en": { "text": "In the beginning, God created the heavens and the earth." },
+    "zh": { "text": "起初，神创造天地。", "source": "Chinese Union Version" },
+    "hi": { "text": "आदि में परमेश्वर ने आकाश और पृथ्वी की सृष्टि की।" },
+    "es": { "text": "En el principio creó Dios los cielos y la tierra.", "source": "Reina-Valera" },
+    "ar": { "text": "في البدء خلق الله السماوات والأرض." },
+    "fr": { "text": "Au commencement, Dieu créa les cieux et la terre.", "source": "Louis Segond" },
+    "pt": { "text": "No princípio criou Deus os céus e a terra.", "source": "Almeida" },
+    "ru": { "text": "В начале сотворил Бог небо и землю.", "source": "Синодальный перевод" },
+    "id": { "text": "Pada mulanya Allah menciptakan langit dan bumi." },
+    "de": { "text": "Am Anfang schuf Gott Himmel und Erde.", "source": "Luther 1912" },
+    "ja": { "text": "はじめに神は天と地とを創造された。", "source": "口語訳" },
+    "tr": { "text": "Başlangıçta Tanrı göğü ve yeri yarattı." },
+    "ko": { "text": "태초에 하나님이 천지를 창조하시니라", "source": "개역한글" },
+    "fa": { "text": "در ابتدا، خدا آسمان‌ها و زمین را آفرید." },
+    "it": { "text": "Nel principio Iddio creò i cieli e la terra.", "source": "Riveduta" },
+    "pl": { "text": "Na początku stworzył Bóg niebo i ziemię.", "source": "Biblia Gdańska" },
+    "nl": { "text": "In den beginne schiep God den hemel en de aarde.", "source": "Statenvertaling" },
+    "uk": { "text": "На початку Бог створив небо та землю.", "source": "Огієнко" },
+    "el": { "text": "Ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.", "source": "Septuagint" },
+    "sw": { "text": "Hapo mwanzo Mungu aliziumba mbingu na nchi." },
+    "la": { "text": "In principio creavit Deus caelum et terram.", "source": "Vulgata" },
+    "eo": { "text": "En la komenco Dio kreis la ĉielon kaj la teron.", "source": "Zamenhof" }
+  }
+}
