@@ -1,15 +1,17 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
-import { getLanguage } from '@/content/languages';
-import { getVerse } from '@/content/verses';
+import { getLanguage, LANGUAGES } from '@/content/languages';
+import { availableLanguages, getVerse } from '@/content/verses';
 import { localePath, useLocale } from '@/i18n/useLocale';
 import { Container } from '@/components/ui/Container';
 import { ButtonLink } from '@/components/ui/ButtonLink';
 import { cn } from '@/lib/cn';
 
-/** Languages that rotate under the Hebrew line — never all 70 at once. */
-const ROTATION = ['en', 'zh', 'ar', 'es', 'ru', 'hi', 'fr', 'de'] as const;
+/** Every available translation of the first line, one at a time — never all 70 at once. */
+const ROTATION = availableLanguages(getVerse('genesis-1-1'), LANGUAGES).filter((c) => c !== 'he');
+/** Quick-pick languages shown as a row under the rotating line. */
+const SHORTCUTS = ['en', 'zh', 'ar', 'es', 'ru', 'hi', 'fr', 'de'];
 const INTERVAL_MS = 3600;
 
 export function Hero() {
@@ -68,32 +70,39 @@ export function Hero() {
             {verse.hebrew}
           </p>
 
-          <div className="min-h-[3.5rem]" aria-live="polite">
+          <div className="min-h-[5.5rem]" aria-live="polite">
             <AnimatePresence mode="wait">
-              <motion.p
+              <motion.div
                 key={code}
-                lang={code}
-                dir={lang?.dir}
                 initial={{ opacity: 0, y: reduce ? 0 : 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: reduce ? 0 : -8 }}
                 transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                className="flex flex-col gap-2"
+              >
+              <p className="label text-gold" lang={code}>
+                {lang?.nativeName} <span className="text-navy/30">· {index + 1} / {ROTATION.length}</span>
+              </p>
+              <p
+                lang={code}
+                dir={lang?.dir}
                 className="font-display text-xl italic text-navy/70 sm:text-2xl"
               >
                 {verse.translations[code]?.text}
-              </motion.p>
+              </p>
+              </motion.div>
             </AnimatePresence>
           </div>
 
           <ul className="flex flex-wrap gap-x-3 gap-y-1 text-sm text-navy/40" aria-label={tc('nav.languages')}>
-            {ROTATION.map((c, i) => (
+            {SHORTCUTS.map((c, i) => (
               <li key={c} className="flex items-center gap-3">
                 {i > 0 && <span aria-hidden="true">·</span>}
                 <button
                   type="button"
                   lang={c}
-                  onClick={() => setIndex(i)}
-                  className={cn('transition-colors duration-500', i === index ? 'text-gold' : 'hover:text-navy')}
+                  onClick={() => setIndex(ROTATION.indexOf(c))}
+                  className={cn('transition-colors duration-500', c === code ? 'text-gold' : 'hover:text-navy')}
                 >
                   {getLanguage(c)?.nativeName}
                 </button>
