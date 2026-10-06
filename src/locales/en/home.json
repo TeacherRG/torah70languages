@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "70 LANGUAGES — The words that shaped humanity",
+    "description": "Selected passages from the Torah, translated and presented in the world's major languages."
+  },
+  "hero": {
+    "eyebrow": "70 LANGUAGES",
+    "title": "The words that shaped humanity.",
+    "subtitle": "Selected passages from the Torah, translated and presented in the world's major languages.",
+    "verseRef": "Genesis 1:1"
+  },
+  "beginning": {
+    "title": "In the beginning.",
+    "ref": "Genesis 1:1",
+    "hint": "Choose your language"
+  },
+  "branching": {
+    "from": "From one language",
+    "to": "to seventy",
+    "root": "One source",
+    "worlds": "70 language worlds",
+    "body": "According to classical Jewish tradition, humanity was divided into seventy nations and seventy languages.",
+    "sources": "Ramban · Genesis 11 · Pirkei de-Rabbi Eliezer",
+    "more": "Why seventy — and why ours are different"
+  },
+  "core": {
+    "eyebrow": "The Collection",
+    "title": "The Core",
+    "body": "Fourteen passages that shaped how humanity speaks of creation, freedom, law and love."
+  },
+  "languages": {
+    "eyebrow": "The Languages",
+    "count": "70",
+    "label": "Languages"
+  },
+  "worlds": {
+    "line1": "One text.",
+    "line2": "Seventy worlds.",
+    "body": "The same ancient words can sound completely different in another language — and reveal something new.",
+    "steps": {
+      "read": "Read it in your language.",
+      "compare": "Compare it with another.",
+      "discover": "Discover the original."
+    }
+  },
+  "compare": {
+    "eyebrow": "Compare",
+    "title": "One verse. Many voices.",
+    "body": "Choose up to three languages and read them side by side with the Hebrew original.",
+    "verse": "Verse",
+    "add": "Add a language",
+    "remove": "Remove {{language}}",
+    "limit": "Up to {{count}} languages"
+  },
+  "numbers": {
+    "languages": "languages",
+    "passages": "core passages",
+    "source": "ancient source",
+    "one": "One"
+  }
+}
